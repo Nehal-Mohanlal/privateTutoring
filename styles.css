@@ -1,18 +1,19 @@
 body{
-    background-color: #47B5FF;
+    --background-color: purple;
 }
 .navbar-nav{
     margin-left: 70%;
 }
-.heading{
-    display:flex; 
-    align-items: center;
-    justify-content: center;
+.heading, .intro{
+    text-align: center;
     margin-bottom: 14px;
     margin-top:10px; 
-    color:whitesmoke
+   
 }
-
+.header{
+    text-align: center;
+}
+h
 .intro{
     margin-bottom: 14px;
     margin-top:10px; 
@@ -23,42 +24,12 @@ body{
 }
 
 
-.subjects{
-    display:flex; 
-    align-items: center;
-    justify-content: center;
-    margin-bottom: 14px;
-    margin-top:10px; 
-    overflow: auto;
-    
-}
-.card{
-
-    margin:6px; 
-    margin-bottom: 10px;
-}
-
 #subHeading{
     text-align: center;
     color:whitesmoke
 }
 
+.subject{
+    padding-bottom: 20px;
+}
 
- .page-container{
-    position: relative;
-    min-height: 100vh; 
- }
-
- .main-content{
-    padding-bottom: 2.5rem;
- }
-
- #footer{
-    position: relative;
-    padding-top:10px;
-    width: 100%;
-    height: 2.5rem;    
-    text-align: center;
-    color:whitesmoke;
-    font-size: 10px;
- }
